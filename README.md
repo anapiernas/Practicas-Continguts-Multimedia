@@ -1,2 +1,2 @@
-# Practicas-Continguts-Multimedia
+# Practiques-Continguts-Multimedia
 Ana Piernas Cuni
