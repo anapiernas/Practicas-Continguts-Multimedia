@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title> Zapatos Online </title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="mdesp.js"></script>
+	<script language="javascript" src="funciones.js"></script>
+	<link rel="stylesheet" href="estilos.css" type="text/css"/>
+</head>
+
+
+
+
+<body>
+<div id="header2">
+</div>
+<header>
+    <h1>  ლ · · New in · · ლ </h1>
+</header>
+
+<ul class="navegador">
+  <li><a href="#" class="desplegable" title="Menu">Menú principal</a>
+    <ul class="subnavegador">
+      <li><input type="button" value="Todos los articulos disponibles" onClick="window.location.href='/Pagina1.html'"></li>
+      <li><input type="button" value="Ofertas" onClick="window.location.href='/Pagina2.html'"></li>
+    </ul>
+</ul>	
+ 
+<div id="contenedor">
+<section id="s1">
+    <!--hspace=20 para dejar espacio entre imagen e imagen -->
+	<article class="imagen">
+	    <img src="https://mosaic02.ztat.net/vgs/media/catalog1/EV/41/1L/A0/RJ/11/EV411LA0R-J11@12.jpg" hspace=20> <br/>
+		<center>
+		<h2>  Even&Odd<br/> </h2> Sandalias-Nude<br/>39,95<br/>
+		<input type="button" style="background-color:#cccccc; color:black; font-size:10pt; font-family:Verdana" value="Comprar" onclick="comprar('Sandalias-Nude Even&Odd',39.95);"> <br/><br/><br/>
+		</center>
+    </article>
+	
+	
+	<article class="imagen">
+	    <img src="https://mosaic02.ztat.net/vgs/media/catalog1/M0/Q1/1L/02/FG/11/M0Q11L02F-G11@10.jpg" hspace=20> <br/>
+		<center>
+		<h2>  Even&Odd<br/> </h2> Sandalias-Red<br/>41,95<br/>
+		<input type="button" style="background-color:#cccccc; color:black; font-size:10pt; font-family:Verdana" value="Comprar" onclick="comprar('Sandalias-Red Even&Odd',41.95);">  <br/><br/><br/>
+		</center>
+    </article>
+	
+	<article class="imagen">
+     <img src="https://mosaic02.ztat.net/vgs/media/catalog1/M6/61/1N/A0/NQ/11/M6611NA0N-Q11@12.jpg" hspace=20> <br/>
+		<center>
+		<h2> Mai Piu Senza<br/> </h2> Sandalias-Black<br/>90.99<br/>
+		<input type="button" style="background-color:#cccccc; color:black; font-size:10pt; font-family:Verdana" value="Comprar" onclick="comprar('Sandalias-Black Mai Piu Senza ',90.99);">  <br/><br/><br/>
+		</center>
+    </article>
+		
+</section>
+<h3>
+	<aside id="total">
+		<p id="suma"> Total: </p> 
+	</aside>
+</h3>
+</div>
+</body>
+</html>	
