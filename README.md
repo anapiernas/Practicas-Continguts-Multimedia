@@ -1,2 +1,2 @@
 # Practiques-Continguts-Multimedia
-Alert Bruna i Ana Piernas Cuni
+Albert Bruna i Ana Piernas Cuni
